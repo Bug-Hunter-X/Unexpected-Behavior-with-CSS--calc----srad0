@@ -1,0 +1,26 @@
+/* bugSolution.css */
+/* Correct usage of calc() */
+.container {
+  width: calc(100% - 20px);
+}
+
+.element {
+  height: calc(50% + 10em);
+}
+
+/*Mixing units correctly*/
+.anotherElement {
+  width: calc(50% - 2em);
+}
+/*Avoid these issues*/
+/*.incorrect {
+  width: calc(100% - 20 px); /* Incorrect spacing */
+}
+
+.alsoIncorrect {
+  width: calc(100%-20px); /* Missing space between operators */
+}
+
+.anotherIncorrect {
+  width: calc(100px + 20%); /*Mixing % and px may lead to unexpected results*/
+}*/
